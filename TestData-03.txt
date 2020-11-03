@@ -1,0 +1,5 @@
+﻿petname,pettype,petage
+Хвостик,dog,0
+Серик,Собака,1
+Уголёк,ёжик,2
+Goodik,кошка,3
