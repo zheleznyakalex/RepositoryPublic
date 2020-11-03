@@ -1,0 +1,7 @@
+pm.test("Status code is 200", function () {
+    pm.response.to.have.status(200);
+});
+
+var jsonData = JSON.parse(responseBody);
+pm.collectionVariables.set("petId", jsonData.pets[0].id);
+console.log(pm.variables.get("petId"))
